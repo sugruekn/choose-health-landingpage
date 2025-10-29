@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Health Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Foco', sans-serif;
+      color: white;
+      overflow-x: hidden;
+      background-color: #000;
+    }
+
+    h1, h2 {
+      font-family: 'Foco', sans-serif;
+    }
+
+    h2 {
+      color: #189dda;
+      margin-bottom: 10px;
+    }
+
+    main {
+      position: relative;
+      padding: 5% 8%;
+      z-index: 1;
+    }
+
+    main h1 {
+      font-size: 2.2em;
+      margin-bottom: 20px;
+    }
+
+    .discount {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: red;
+    }
+
+    .freeshipping {
+      font-size: 0.7em;
+      margin-bottom: 20px;
+      color: whitesmoke;
+    }
+
+    .cta-button {
+      border: 2px solid #189dda;
+      color: white;
+      padding: 12px 24px;
+      font-size: 1em;
+      background-color: #189dda;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #1177bb;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 30px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-size: 1em;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #189dda;
+    }
+
+    .bg-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('SELF-CARE-FOR-MEN-4.webp');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      filter: brightness(0.6);
+      z-index: -1;
+    }
+
+    .image {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .image img {
+      max-width: 200px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 10px;
+      color: white;
+      font-size: 0.8em;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+
+      main h1 {
+        font-size: 1.8em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bg-image"></div>
+
+  <div class="image">
+    <img src="choosehealth.svg" alt="Choose Health Logo">   
+    <nav>
+      <a href="https://www.choosehealth.io/shop">What’s Included</a>
+      <a href="https://www.choosehealth.io/how-it-works">How It Works</a>
+      <a href="https://www.choosehealth.io/shop#happy-customers">Testimonials</a>
+      <a href="https://www.choosehealth.io/white-label">FAQs</a>
+    </nav>
+  </div>
+  
+  <main>
+    <h1>At-Home Blood Testing Made For <br> Your Liver!</h1>
+    <h2>A convenient, science-backed way <br> to understand your liver health.</h2>
+
+    <p class="middle"> Our 7-in-1 test measures key biomarkers: <br>AST <br>ALT <br>AST-ALT Ratio <br>GGT <br>HBA1C <br>hsCRP <br>Visceral Fat </p><br>
+    
+    <p class="discount"><del>$90.00</del> <strong>$67.50</strong></p>
+    <p class="freeshipping">Includes free shipping</p>
+
+    <a href="https://www.choosehealth.io/product/liver-function-test">
+      <button class="cta-button" type="button">Get Your Test Now</button>
+    </a>
+  </main>
+
+  <footer>
+    <p>Take Control of Your Liver Function At Home</p>
+    <p>&copy; Choose Health 2025</p><br>
+    <img src="reviews.svg"><br>
+    <img src="certified.png">
+    <img src="certified2.png">
+  </footer>
+</body>
+</html>
